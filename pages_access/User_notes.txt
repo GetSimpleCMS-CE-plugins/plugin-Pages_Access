@@ -1,0 +1,108 @@
+------------------------------------
+Plugin Title: 	Pages Access
+Author:			Craig Adams
+Website:		www.codecobber.co.uk
+-------------------------------------
+
+
+
+User notes
+==========
+
+The main reason for the plugin is to provide a way to restrict the
+backend of GS to logged in users. Displaying of backend content would 
+depend on which groups or pages they have been assigned access to. 
+eg: the pages tab would only display a list of pages that they are
+authorised to see and edit.
+
+
+Simple use
+-------------------------------------------------------------------------
+
+The plugin use is fairly simple, most of the time it's self explanatory.
+An example task would be the admin selecting a user and then a page 
+followed by clicking the add or remove button as required. The plugin will
+also provide warning or success notification when a user conducts a task.
+
+
+
+Functions include:
+-------------------------------------------------------------------------
+
+	* adding/removing a user to a page
+	* adding/removing a user to a group
+	* adding/removing a group to page
+
+
+
+Within the pages access tab
+-------------------------------------------------------------------------
+
+
+	* The overview page *
+	
+		The overview page provides a list of all the pages and the groups
+		and users that have access.
+
+	* Group user list page *
+	
+		Provides an output of the groups and each associated members and 
+		the ability to create or remove a group.
+
+	* User to page *
+	
+		Allows the addition or removal of a user to a page 
+
+	* User to group *
+	
+		Allows the addition or removal of a user to a group
+
+	* Group to page *
+	
+		Allows the addition or removal of a group to a page
+
+
+
+
+
+Initial setup
+-------------------------------------------------------------------------
+
+Download and unzip(unpack) the plugin. Next place the 'categories' folder 
+into data/other/
+
+Place the folder and file named pages_access into the plugins directory.
+
+Activate the plugin within the plugins tab. 
+
+Now navigate to the 'Pages' tab and refresh the browser (F5 on your keyboard).
+
+The new 'pages_access' tab will now appear in the back end.
+
+When the plugin first loads it will add the currently logged in 
+user name to the 'admin' array.(This is why we refresh in the pages tab).
+
+From here on it is the responsibility of the admin to add 
+additional members to the admin group using the grouplist page.
+
+
+
+
+Caution:!!!
+-------------------------------------------------------------------------
+DO NOT edit the plugin php files unless you are confident. 
+The plugin data is stored in two files (cats.php and groups.php).
+These two files must be placed in the folder 'data/other/categories'.
+You will need to create the categories folder initially within the folder 
+'data/other/'.
+
+
+Licence
+------------------------------------------------------------------------- 
+The plugin is provided as a GPL licence
+
+
+Coffee
+-------------------------------------------------------------------------
+If you'd like to buy me a coffee (or a glass of wine) it would be much appreciated.
+http://www.codecobber.co.uk/donateme.php 

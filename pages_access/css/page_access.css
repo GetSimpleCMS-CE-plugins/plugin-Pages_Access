@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css) ;
+
+
+.main, .PA_listH2, .PA_buttonSpace{
+	font-family: 'Source Sans Pro', 'Helvetica Nue', sans-serif !important;
+}
+
+ .PA_alertExists, .PA_alertSuccess, .PA_alertWarning,.PA_alertError{
+ 	border-radius:3px; 
+ 	-webkit-border-radius:3px; 
+ 	-moz-border-radius:3px; 
+ 	font-size:1.2em;
+ 	text-align:center;
+ 	color:#fff; 
+	padding:10px; 
+ }
+
+.PA_listContent{
+  	padding-bottom: 15px;
+	float:left;width:35%; 
+	margin-right:30px; 
+	background-color: #f6f6f6; 
+	border-bottom:solid 1px #d7d7d7;
+}
+
+.PA_alertSuccess{
+	background-color:#59c359; 
+}
+
+.PA_alertWarning{
+	background-color:#e88e8e;
+}
+
+.PA_alertError{
+	background-color:#d15f5f;
+}
+
+.PA_listBotBord{
+	border-bottom:solid 1px #e0dfdf;
+	padding:4px 0 0 8px;
+}
+
+.PA_listH4{
+	font-weight:bold;
+	margin-top:10px;
+	font-size: 1em;
+}
+
+.PA_listH3{
+	font-weight:bold;
+	margin-bottom:20px;
+	font-size: 1.3em;
+}
+
+.PA_listH2{
+	font-weight:bold;
+	margin-bottom:20px;
+	font-size: 1.6em;
+	padding:7px 0 7px 7px !important;
+	color: #fff !important;
+	background-color:#444;
+}
+
+
+.PA_listP,.PA_listPbold{
+	margin:3px 0 10px 0;
+}
+
+.PA_listP, .PA_listP span{
+	font-weight: normal;
+}
+
+.PA_listPbold{
+	font-weight: bold;
+	margin:7px 0 !important;
+}
+
+.PA_radioHolder:hover{
+	color: #2fb6db;
+	background-color: #dadada;
+	color: #000;
+}
+
+
+
+.PA_buttonSpace{
+	padding:10px;
+	margin-bottom: 20px;
+}
+
+
+.PA_radioInput{
+	float:left; 
+	margin:2px 10px 0 5px;
+}
+
+p.PA_radioHolder{
+	margin:5px !important;
+}
+
+.snav .fa{
+	width:19px;
+}
+
+
+#overViewWidth{
+	width:60%;
+}
+
+
+
+
+
+#PA_userPerms {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#PA_userPerms td, #PA_userPerms th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+
+.PA_table tr:hover {background-color: #ddd;}
+
+#PA_userPerms th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #367FA9 !important;
+    color: white;
+}
+
+#PA_userPerms .pages{
+	width:33%;
+}
+
+#PA_userPerms .users{
+	width:33%;
+
+}
+
+#PA_userPerms .groups{
+	width:33%;
+
+}
+
+#PA_userPerms td.sameWidth{
+	width:33%;
+}
+
+#PA_userPerms .pages, #PA_userPerms .users, #PA_userPerms .groups{
+	border:solid 1px #777;
+	display: inline-block;
+}
+
+#PA_userPerms a.pa_button{
+	background-color:#4CAF50;
+	padding:10px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	text-align: center;
+}
+
+#PA_userPerms a.pa_button:hover{
+	background-color: green;
+}
