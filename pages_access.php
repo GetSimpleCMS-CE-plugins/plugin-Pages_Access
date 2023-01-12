@@ -27,7 +27,7 @@ $thisfile=basename(__FILE__, ".php");
 register_plugin(
 	$thisfile, //Plugin id
 	'Pages Access', 	//Plugin name
-	'1.0', 		//Plugin version
+	'1.0.8', 		//Plugin version
 	'Craig Adams',  //Plugin author
 	'http://www.codecobber.co.uk/', //author website
 	'Allows only certain pages to be viewed in admin based on user name', //Plugin description
